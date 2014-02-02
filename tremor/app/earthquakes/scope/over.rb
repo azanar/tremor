@@ -1,4 +1,5 @@
 module Tremor
+module Earthquakes
 module Scope
 class Over
   def initialize(magnitude)
@@ -11,5 +12,5 @@ class Over
 end
 end
 end
-
+end
 

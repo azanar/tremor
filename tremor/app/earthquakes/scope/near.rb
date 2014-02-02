@@ -1,4 +1,5 @@
 module Tremor
+module Earthquakes
 module Scope
 class Near
   DISTANCE_BOUND = 5
@@ -13,6 +14,7 @@ class Near
     function = Sequel.function(:quake_distances_from_point, point)
     dataset.join(function, "d.quake_id = quakes.id", :table_alias => :d).where("d.distance < 5")
   end
+end
 end
 end
 end
