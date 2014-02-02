@@ -1,4 +1,7 @@
 require 'sinatra'
 
-get '/earthquakes' do
-end
+$:.push('tremor', 'config')
+
+require 'app/earthquakes'
+
+

@@ -1,4 +1,4 @@
 require 'sequel'
 require 'logger'
 
-Sequel.postgres("tremor")
+DB = Sequel.postgres("tremor")
