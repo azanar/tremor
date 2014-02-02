@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.12.0)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
+    metaclass (0.0.2)
+    mocha (1.0.0)
+      metaclass (~> 0.0.1)
+    multi_xml (0.5.5)
+    pg (0.17.1)
+    rack (1.5.2)
+    rack-protection (1.5.2)
+      rack
+    sequel (4.7.0)
+    sinatra (1.4.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    test-unit (2.5.5)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  mocha
+  pg
+  sequel
+  sinatra
+  test-unit
