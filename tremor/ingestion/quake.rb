@@ -5,7 +5,7 @@ module Tremor
     class Quake
       def initialize(line)
         @id = line[11]
-        @magnitude = line[3]
+        @magnitude = line[4]
         @latitude = line[1]
         @longitude = line[2]
         @time = DateTime.parse(line[0])
